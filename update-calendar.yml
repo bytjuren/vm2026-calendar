@@ -1,0 +1,31 @@
+name: Uppdatera VM-kalender
+
+on:
+  schedule:
+    # Kör automatiskt var 30:e minut.
+    - cron: "*/30 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-calendar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Hämta repo
+        uses: actions/checkout@v4
+
+      - name: Sätt upp Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Skapa kalenderfil från TV4-sidan
+        run: python update_calendar.py
+
+      - name: Committa uppdaterad kalender
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Uppdatera VM 2026-kalender"
+          file_pattern: docs/fotbolls-vm-2026-tv4-svt.ics docs/index.html
