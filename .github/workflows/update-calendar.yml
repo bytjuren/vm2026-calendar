@@ -20,11 +20,11 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Skapa kalenderfil från Svensk Fotboll-sidan
+      - name: Skapa kalenderfil från TVmatchen
         run: python update_calendar.py
 
       - name: Committa uppdaterad kalender
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Uppdatera VM 2026-kalender från Svensk Fotboll"
+          commit_message: "Uppdatera VM 2026-kalender från TVmatchen"
           file_pattern: docs/fotbolls-vm-2026-tv4-svt.ics docs/index.html
