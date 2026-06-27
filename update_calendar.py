@@ -142,7 +142,7 @@ def channel_from_text(text: str) -> str | None:
     return None
 
 def date_time_from_text(text: str) -> tuple[int, int, int, int] | None:
-    # Ex: 27 Jun 21:00, 01 Jul 01:00
+    # Ex: 27 Jun 19:00, 01 Jul 23:00. TVmatchens råa HTML-tid tolkas som UTC och konverteras till svensk tid.
     m = re.search(r"\b(\d{1,2})\s+(Jan|Feb|Mar|Apr|Maj|Jun|Jul|Aug|Sep|Okt|Nov|Dec)\s+(\d{1,2}):(\d{2})\b", text)
     if not m:
         return None
@@ -185,7 +185,7 @@ def parse_main_page(raw_html: str) -> list[dict]:
         if dt and teams:
             day, month, hour, minute = dt
             candidates.append({
-                "start": datetime(2026, month, day, hour, minute, tzinfo=ZoneInfo(TIMEZONE)),
+                "start": datetime(2026, month, day, hour, minute, tzinfo=timezone.utc).astimezone(ZoneInfo(TIMEZONE)),
                 "home": teams[0],
                 "away": teams[1],
                 "channel": channel,
