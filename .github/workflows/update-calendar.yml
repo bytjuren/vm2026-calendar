@@ -1,7 +1,6 @@
 name: Uppdatera VM-kalender
 
 on:
-  workflow_dispatch:
   schedule:
     - cron: "*/30 * * * *"
 
