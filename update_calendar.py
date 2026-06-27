@@ -36,7 +36,7 @@ FLAGS = {
     "Kanada": "🇨🇦", "Bosnien": "🇧🇦", "Bosnien-Hercegovina": "🇧🇦",
     "Bosnien och Hercegovina": "🇧🇦", "USA": "🇺🇸", "Paraguay": "🇵🇾",
     "Qatar": "🇶🇦", "Schweiz": "🇨🇭", "Brasilien": "🇧🇷", "Marocko": "🇲🇦",
-    "Haiti": "🇭🇹", "Skottland": "🏴", "Australien": "🇦🇺", "Turkiet": "🇹🇷",
+    "Haiti": "🇭🇹", "Skottland": "🏴󠁧󠁢󠁳󠁣󠁴󠁿", "Australien": "🇦🇺", "Turkiet": "🇹🇷",
     "Tyskland": "🇩🇪", "Curacao": "🇨🇼", "Curaçao": "🇨🇼", "Nederländerna": "🇳🇱",
     "Japan": "🇯🇵", "Elfenbenskusten": "🇨🇮", "Elfbenskusten": "🇨🇮", "Ecuador": "🇪🇨",
     "Sverige": "🇸🇪", "Tunisien": "🇹🇳", "Spanien": "🇪🇸", "Kap Verde": "🇨🇻",
@@ -45,7 +45,8 @@ FLAGS = {
     "Irak": "🇮🇶", "Norge": "🇳🇴", "Argentina": "🇦🇷", "Algeriet": "🇩🇿",
     "Österrike": "🇦🇹", "Jordanien": "🇯🇴", "Portugal": "🇵🇹",
     "DR Kongo": "🇨🇩", "D.R. Kongo": "🇨🇩", "Demokratiska republiken Kongo": "🇨🇩",
-    "England": "🏴", "Kroatien": "🇭🇷", "Ghana": "🇬🇭", "Panama": "🇵🇦",
+    "England": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "Kroatien": "🇭🇷", "Ghana": "🇬🇭", "Panama": "🇵🇦",
+    "Wales": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
     "Uzbekistan": "🇺🇿", "Colombia": "🇨🇴",
 }
 
