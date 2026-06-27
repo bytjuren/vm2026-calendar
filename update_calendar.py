@@ -287,7 +287,7 @@ def build_ics(matches: list[Match]) -> str:
     ]
 
     for m in matches:
-        end = m.start + timedelta(minutes=15)
+        end = m.start + timedelta(minutes=120)
         stream = TV4PLAY_URL if m.channel == "TV4" else SVTPLAY_URL
         title = f"{flag_team(m.home)} - {flag_team(m.away)} ({m.channel})"
         description = "\n".join([
