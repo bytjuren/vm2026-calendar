@@ -25,10 +25,10 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202606272100-panama-england-svt@tvmatchen-calendar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260627T210000
-DTEND;TZID=Europe/Stockholm:20260627T211500
+UID:fifa-world-cup-2026-202606272300-panama-england-svt@tvmatchen-calendar
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260627T230000
+DTEND;TZID=Europe/Stockholm:20260627T231500
 SUMMARY:🇵🇦Panama - 🏴England (SVT)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: SVT\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/panama
@@ -37,10 +37,10 @@ LOCATION:SVT
 URL:https://www.svtplay.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202606272100-kroatien-ghana-svt@tvmatchen-calendar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260627T210000
-DTEND;TZID=Europe/Stockholm:20260627T211500
+UID:fifa-world-cup-2026-202606272300-kroatien-ghana-svt@tvmatchen-calendar
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260627T230000
+DTEND;TZID=Europe/Stockholm:20260627T231500
 SUMMARY:🇭🇷Kroatien - 🇬🇭Ghana (SVT)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: SVT\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/kroati
@@ -49,11 +49,11 @@ LOCATION:SVT
 URL:https://www.svtplay.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202606272330-colombia-portugal-tv4@tvmatchen-calend
+UID:fifa-world-cup-2026-202606280130-colombia-portugal-tv4@tvmatchen-calend
  ar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260627T233000
-DTEND;TZID=Europe/Stockholm:20260627T234500
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260628T013000
+DTEND;TZID=Europe/Stockholm:20260628T014500
 SUMMARY:🇨🇴Colombia - 🇵🇹Portugal (TV4)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: TV4\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/colomb
@@ -62,11 +62,11 @@ LOCATION:TV4
 URL:https://www.tv4play.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202606272330-dr-kongo-uzbekistan-tv4@tvmatchen-cale
+UID:fifa-world-cup-2026-202606280130-dr-kongo-uzbekistan-tv4@tvmatchen-cale
  ndar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260627T233000
-DTEND;TZID=Europe/Stockholm:20260627T234500
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260628T013000
+DTEND;TZID=Europe/Stockholm:20260628T014500
 SUMMARY:🇨🇩DR Kongo - 🇺🇿Uzbekistan (TV4)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: TV4\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/dr-kon
@@ -75,11 +75,11 @@ LOCATION:TV4
 URL:https://www.tv4play.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202606280200-jordanien-argentina-tv4@tvmatchen-cale
+UID:fifa-world-cup-2026-202606280400-jordanien-argentina-tv4@tvmatchen-cale
  ndar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260628T020000
-DTEND;TZID=Europe/Stockholm:20260628T021500
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260628T040000
+DTEND;TZID=Europe/Stockholm:20260628T041500
 SUMMARY:🇯🇴Jordanien - 🇦🇷Argentina (TV4)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: TV4\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/jordan
@@ -88,11 +88,11 @@ LOCATION:TV4
 URL:https://www.tv4play.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202606280200-algeriet-sterrike-tv4@tvmatchen-calend
+UID:fifa-world-cup-2026-202606280400-algeriet-sterrike-tv4@tvmatchen-calend
  ar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260628T020000
-DTEND;TZID=Europe/Stockholm:20260628T021500
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260628T040000
+DTEND;TZID=Europe/Stockholm:20260628T041500
 SUMMARY:🇩🇿Algeriet - 🇦🇹Österrike (TV4)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: TV4\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/algeri
@@ -101,11 +101,11 @@ LOCATION:TV4
 URL:https://www.tv4play.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202606281900-sydafrika-kanada-tv4@tvmatchen-calenda
+UID:fifa-world-cup-2026-202606282100-sydafrika-kanada-tv4@tvmatchen-calenda
  r
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260628T190000
-DTEND;TZID=Europe/Stockholm:20260628T191500
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260628T210000
+DTEND;TZID=Europe/Stockholm:20260628T211500
 SUMMARY:🇿🇦Sydafrika - 🇨🇦Kanada (TV4)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: TV4\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/sydafr
@@ -114,10 +114,10 @@ LOCATION:TV4
 URL:https://www.tv4play.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202606291700-brasilien-japan-tv4@tvmatchen-calendar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260629T170000
-DTEND;TZID=Europe/Stockholm:20260629T171500
+UID:fifa-world-cup-2026-202606291900-brasilien-japan-tv4@tvmatchen-calendar
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260629T190000
+DTEND;TZID=Europe/Stockholm:20260629T191500
 SUMMARY:🇧🇷Brasilien - 🇯🇵Japan (TV4)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: TV4\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/brasil
@@ -126,11 +126,11 @@ LOCATION:TV4
 URL:https://www.tv4play.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202606292030-tyskland-paraguay-svt@tvmatchen-calend
+UID:fifa-world-cup-2026-202606292230-tyskland-paraguay-svt@tvmatchen-calend
  ar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260629T203000
-DTEND;TZID=Europe/Stockholm:20260629T204500
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260629T223000
+DTEND;TZID=Europe/Stockholm:20260629T224500
 SUMMARY:🇩🇪Tyskland - 🇵🇾Paraguay (SVT)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: SVT\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/tyskla
@@ -139,10 +139,10 @@ LOCATION:SVT
 URL:https://www.svtplay.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202606300100-1f-marocko-svt@tvmatchen-calendar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260630T010000
-DTEND;TZID=Europe/Stockholm:20260630T011500
+UID:fifa-world-cup-2026-202606300300-1f-marocko-svt@tvmatchen-calendar
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260630T030000
+DTEND;TZID=Europe/Stockholm:20260630T031500
 SUMMARY:1F - 🇲🇦Marocko (SVT)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: SVT\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/1f-mar
@@ -151,11 +151,11 @@ LOCATION:SVT
 URL:https://www.svtplay.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202606301700-elfenbenskusten-norge-tv4@tvmatchen-ca
+UID:fifa-world-cup-2026-202606301900-elfenbenskusten-norge-tv4@tvmatchen-ca
  lendar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260630T170000
-DTEND;TZID=Europe/Stockholm:20260630T171500
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260630T190000
+DTEND;TZID=Europe/Stockholm:20260630T191500
 SUMMARY:🇨🇮Elfenbenskusten - 🇳🇴Norge (TV4)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: TV4\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/elfenb
@@ -164,11 +164,11 @@ LOCATION:TV4
 URL:https://www.tv4play.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202606302100-frankrike-sverige-tv4@tvmatchen-calend
+UID:fifa-world-cup-2026-202606302300-frankrike-sverige-tv4@tvmatchen-calend
  ar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260630T210000
-DTEND;TZID=Europe/Stockholm:20260630T211500
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260630T230000
+DTEND;TZID=Europe/Stockholm:20260630T231500
 SUMMARY:🇸🇪 Frankrike - 🇸🇪Sverige (TV4)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: TV4\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/frankr
@@ -177,10 +177,10 @@ LOCATION:TV4
 URL:https://www.tv4play.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202607010100-mexiko-3cefhi-tv4@tvmatchen-calendar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260701T010000
-DTEND;TZID=Europe/Stockholm:20260701T011500
+UID:fifa-world-cup-2026-202607010300-mexiko-3cefhi-tv4@tvmatchen-calendar
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260701T030000
+DTEND;TZID=Europe/Stockholm:20260701T031500
 SUMMARY:🇲🇽Mexiko - 3CEFHI (TV4)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: TV4\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/mexiko
@@ -189,10 +189,10 @@ LOCATION:TV4
 URL:https://www.tv4play.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202607011600-1l-3ehijk-svt@tvmatchen-calendar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260701T160000
-DTEND;TZID=Europe/Stockholm:20260701T161500
+UID:fifa-world-cup-2026-202607011800-1l-3ehijk-svt@tvmatchen-calendar
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260701T180000
+DTEND;TZID=Europe/Stockholm:20260701T181500
 SUMMARY:1L - 3EHIJK (SVT)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: SVT\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/1l-3eh
@@ -201,10 +201,10 @@ LOCATION:SVT
 URL:https://www.svtplay.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202607012000-1g-3aehij-tv4@tvmatchen-calendar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260701T200000
-DTEND;TZID=Europe/Stockholm:20260701T201500
+UID:fifa-world-cup-2026-202607012200-1g-3aehij-tv4@tvmatchen-calendar
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260701T220000
+DTEND;TZID=Europe/Stockholm:20260701T221500
 SUMMARY:1G - 3AEHIJ (TV4)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: TV4\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/1g-3ae
@@ -213,10 +213,10 @@ LOCATION:TV4
 URL:https://www.tv4play.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202607020000-1d-3befij-tv4@tvmatchen-calendar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260702T000000
-DTEND;TZID=Europe/Stockholm:20260702T001500
+UID:fifa-world-cup-2026-202607020200-1d-3befij-tv4@tvmatchen-calendar
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260702T020000
+DTEND;TZID=Europe/Stockholm:20260702T021500
 SUMMARY:1D - 3BEFIJ (TV4)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: TV4\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/1d-3be
@@ -225,10 +225,10 @@ LOCATION:TV4
 URL:https://www.tv4play.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202607021900-1h-2j-svt@tvmatchen-calendar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260702T190000
-DTEND;TZID=Europe/Stockholm:20260702T191500
+UID:fifa-world-cup-2026-202607022100-1h-2j-svt@tvmatchen-calendar
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260702T210000
+DTEND;TZID=Europe/Stockholm:20260702T211500
 SUMMARY:1H - 2J (SVT)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: SVT\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/1h-2j-
@@ -237,10 +237,10 @@ LOCATION:SVT
 URL:https://www.svtplay.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202607022300-2k-2l-tv4@tvmatchen-calendar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260702T230000
-DTEND;TZID=Europe/Stockholm:20260702T231500
+UID:fifa-world-cup-2026-202607030100-2k-2l-tv4@tvmatchen-calendar
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260703T010000
+DTEND;TZID=Europe/Stockholm:20260703T011500
 SUMMARY:2K - 2L (TV4)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: TV4\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/2k-2l-
@@ -249,10 +249,10 @@ LOCATION:TV4
 URL:https://www.tv4play.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202607030300-schweiz-3efgij-tv4@tvmatchen-calendar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260703T030000
-DTEND;TZID=Europe/Stockholm:20260703T031500
+UID:fifa-world-cup-2026-202607030500-schweiz-3efgij-tv4@tvmatchen-calendar
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260703T050000
+DTEND;TZID=Europe/Stockholm:20260703T051500
 SUMMARY:🇨🇭Schweiz - 3EFGIJ (TV4)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: TV4\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/schwei
@@ -261,10 +261,10 @@ LOCATION:TV4
 URL:https://www.tv4play.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202607031800-australien-2g-tv4@tvmatchen-calendar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260703T180000
-DTEND;TZID=Europe/Stockholm:20260703T181500
+UID:fifa-world-cup-2026-202607032000-australien-2g-tv4@tvmatchen-calendar
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260703T200000
+DTEND;TZID=Europe/Stockholm:20260703T201500
 SUMMARY:🇦🇺Australien - 2G (TV4)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: TV4\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/austra
@@ -273,11 +273,11 @@ LOCATION:TV4
 URL:https://www.tv4play.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202607032200-argentina-kap-verde-svt@tvmatchen-cale
+UID:fifa-world-cup-2026-202607040000-argentina-kap-verde-svt@tvmatchen-cale
  ndar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260703T220000
-DTEND;TZID=Europe/Stockholm:20260703T221500
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260704T000000
+DTEND;TZID=Europe/Stockholm:20260704T001500
 SUMMARY:🇦🇷Argentina - 🇨🇻Kap Verde (SVT)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: SVT\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/argent
@@ -286,10 +286,10 @@ LOCATION:SVT
 URL:https://www.svtplay.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202607040130-1k-3deijl-svt@tvmatchen-calendar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260704T013000
-DTEND;TZID=Europe/Stockholm:20260704T014500
+UID:fifa-world-cup-2026-202607040330-1k-3deijl-svt@tvmatchen-calendar
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260704T033000
+DTEND;TZID=Europe/Stockholm:20260704T034500
 SUMMARY:1K - 3DEIJL (SVT)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: SVT\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/1k-3de
@@ -298,10 +298,10 @@ LOCATION:SVT
 URL:https://www.svtplay.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202607041700-2a-2b-1f-2c-tv4@tvmatchen-calendar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260704T170000
-DTEND;TZID=Europe/Stockholm:20260704T171500
+UID:fifa-world-cup-2026-202607041900-2a-2b-1f-2c-tv4@tvmatchen-calendar
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260704T190000
+DTEND;TZID=Europe/Stockholm:20260704T191500
 SUMMARY:2A/2B - 1F/2C (TV4)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: TV4\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/2a2b-1
@@ -310,11 +310,11 @@ LOCATION:TV4
 URL:https://www.tv4play.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202607042100-1e-3abcdf-1i-3cdfgh-svt@tvmatchen-cale
+UID:fifa-world-cup-2026-202607042300-1e-3abcdf-1i-3cdfgh-svt@tvmatchen-cale
  ndar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260704T210000
-DTEND;TZID=Europe/Stockholm:20260704T211500
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260704T230000
+DTEND;TZID=Europe/Stockholm:20260704T231500
 SUMMARY:1E/3ABCDF - 1I/3CDFGH (SVT)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: SVT\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/1e3abc
@@ -323,10 +323,10 @@ LOCATION:SVT
 URL:https://www.svtplay.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202607052000-1c-2f-2e-2i-tv4@tvmatchen-calendar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260705T200000
-DTEND;TZID=Europe/Stockholm:20260705T201500
+UID:fifa-world-cup-2026-202607052200-1c-2f-2e-2i-tv4@tvmatchen-calendar
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260705T220000
+DTEND;TZID=Europe/Stockholm:20260705T221500
 SUMMARY:1C/2F - 2E/2I (TV4)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: TV4\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/1c2f-2
@@ -335,11 +335,11 @@ LOCATION:TV4
 URL:https://www.tv4play.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202607060000-1a-3cefhi-1l-3ehijk-svt@tvmatchen-cale
+UID:fifa-world-cup-2026-202607060200-1a-3cefhi-1l-3ehijk-svt@tvmatchen-cale
  ndar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260706T000000
-DTEND;TZID=Europe/Stockholm:20260706T001500
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260706T020000
+DTEND;TZID=Europe/Stockholm:20260706T021500
 SUMMARY:1A/3CEFHI - 1L/3EHIJK (SVT)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: SVT\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/1a3cef
@@ -348,10 +348,10 @@ LOCATION:SVT
 URL:https://www.svtplay.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202607061900-2k-2l-1h-2j-tv4@tvmatchen-calendar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260706T190000
-DTEND;TZID=Europe/Stockholm:20260706T191500
+UID:fifa-world-cup-2026-202607062100-2k-2l-1h-2j-tv4@tvmatchen-calendar
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260706T210000
+DTEND;TZID=Europe/Stockholm:20260706T211500
 SUMMARY:2K/2L - 1H/2J (TV4)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: TV4\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/2k2l-1
@@ -360,11 +360,11 @@ LOCATION:TV4
 URL:https://www.tv4play.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202607070000-1d-3befij-1g-3aehij-tv4@tvmatchen-cale
+UID:fifa-world-cup-2026-202607070200-1d-3befij-1g-3aehij-tv4@tvmatchen-cale
  ndar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260707T000000
-DTEND;TZID=Europe/Stockholm:20260707T001500
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260707T020000
+DTEND;TZID=Europe/Stockholm:20260707T021500
 SUMMARY:1D/3BEFIJ - 1G/3AEHIJ (TV4)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: TV4\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/1d3bef
@@ -373,10 +373,10 @@ LOCATION:TV4
 URL:https://www.tv4play.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202607071600-1j-2h-2d-2g-tv4@tvmatchen-calendar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260707T160000
-DTEND;TZID=Europe/Stockholm:20260707T161500
+UID:fifa-world-cup-2026-202607071800-1j-2h-2d-2g-tv4@tvmatchen-calendar
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260707T180000
+DTEND;TZID=Europe/Stockholm:20260707T181500
 SUMMARY:1J/2H - 2D/2G (TV4)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: TV4\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/1j2h-2
@@ -385,11 +385,11 @@ LOCATION:TV4
 URL:https://www.tv4play.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202607072000-1b-3efgij-1k-3deijl-svt@tvmatchen-cale
+UID:fifa-world-cup-2026-202607072200-1b-3efgij-1k-3deijl-svt@tvmatchen-cale
  ndar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260707T200000
-DTEND;TZID=Europe/Stockholm:20260707T201500
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260707T220000
+DTEND;TZID=Europe/Stockholm:20260707T221500
 SUMMARY:1B/3EFGIJ - 1K/3DEIJL (SVT)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: SVT\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/1b3efg
@@ -398,11 +398,11 @@ LOCATION:SVT
 URL:https://www.svtplay.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202607092000-winner-ef-1-winner-ef-2-tv4@tvmatchen-
+UID:fifa-world-cup-2026-202607092200-winner-ef-1-winner-ef-2-tv4@tvmatchen-
  calendar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260709T200000
-DTEND;TZID=Europe/Stockholm:20260709T201500
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260709T220000
+DTEND;TZID=Europe/Stockholm:20260709T221500
 SUMMARY:Winner EF 1 - Winner EF 2 (TV4)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: TV4\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/winner
@@ -411,11 +411,11 @@ LOCATION:TV4
 URL:https://www.tv4play.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202607101900-winner-ef-5-winner-ef-6-svt@tvmatchen-
+UID:fifa-world-cup-2026-202607102100-winner-ef-5-winner-ef-6-svt@tvmatchen-
  calendar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260710T190000
-DTEND;TZID=Europe/Stockholm:20260710T191500
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260710T210000
+DTEND;TZID=Europe/Stockholm:20260710T211500
 SUMMARY:Winner EF 5 - Winner EF 6 (SVT)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: SVT\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/winner
@@ -424,11 +424,11 @@ LOCATION:SVT
 URL:https://www.svtplay.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202607112100-winner-ef-3-winner-ef-4-tv4@tvmatchen-
+UID:fifa-world-cup-2026-202607112300-winner-ef-3-winner-ef-4-tv4@tvmatchen-
  calendar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260711T210000
-DTEND;TZID=Europe/Stockholm:20260711T211500
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260711T230000
+DTEND;TZID=Europe/Stockholm:20260711T231500
 SUMMARY:Winner EF 3 - Winner EF 4 (TV4)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: TV4\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/winner
@@ -437,11 +437,11 @@ LOCATION:TV4
 URL:https://www.tv4play.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202607120100-winner-ef-7-winner-ef-8-tv4@tvmatchen-
+UID:fifa-world-cup-2026-202607120300-winner-ef-7-winner-ef-8-tv4@tvmatchen-
  calendar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260712T010000
-DTEND;TZID=Europe/Stockholm:20260712T011500
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260712T030000
+DTEND;TZID=Europe/Stockholm:20260712T031500
 SUMMARY:Winner EF 7 - Winner EF 8 (TV4)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: TV4\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/winner
@@ -450,11 +450,11 @@ LOCATION:TV4
 URL:https://www.tv4play.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202607141900-winner-qf-1-winner-qf-2-tv4@tvmatchen-
+UID:fifa-world-cup-2026-202607142100-winner-qf-1-winner-qf-2-tv4@tvmatchen-
  calendar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260714T190000
-DTEND;TZID=Europe/Stockholm:20260714T191500
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260714T210000
+DTEND;TZID=Europe/Stockholm:20260714T211500
 SUMMARY:Winner QF 1 - Winner QF 2 (TV4)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: TV4\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/winner
@@ -463,11 +463,11 @@ LOCATION:TV4
 URL:https://www.tv4play.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202607151900-winner-qf-3-winner-qf-4-tv4@tvmatchen-
+UID:fifa-world-cup-2026-202607152100-winner-qf-3-winner-qf-4-tv4@tvmatchen-
  calendar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260715T190000
-DTEND;TZID=Europe/Stockholm:20260715T191500
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260715T210000
+DTEND;TZID=Europe/Stockholm:20260715T211500
 SUMMARY:Winner QF 3 - Winner QF 4 (TV4)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: TV4\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/winner
@@ -476,11 +476,11 @@ LOCATION:TV4
 URL:https://www.tv4play.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202607182100-loser-sf-1-loser-sf-2-tv4@tvmatchen-ca
+UID:fifa-world-cup-2026-202607182300-loser-sf-1-loser-sf-2-tv4@tvmatchen-ca
  lendar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260718T210000
-DTEND;TZID=Europe/Stockholm:20260718T211500
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260718T230000
+DTEND;TZID=Europe/Stockholm:20260718T231500
 SUMMARY:Loser SF 1 - Loser SF 2 (TV4)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: TV4\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/loser-
@@ -489,11 +489,11 @@ LOCATION:TV4
 URL:https://www.tv4play.se/
 END:VEVENT
 BEGIN:VEVENT
-UID:fifa-world-cup-2026-202607191900-winner-sf-1-winner-sf-2-tv4@tvmatchen-
+UID:fifa-world-cup-2026-202607192100-winner-sf-1-winner-sf-2-tv4@tvmatchen-
  calendar
-DTSTAMP:20260627T115206Z
-DTSTART;TZID=Europe/Stockholm:20260719T190000
-DTEND;TZID=Europe/Stockholm:20260719T191500
+DTSTAMP:20260627T124600Z
+DTSTART;TZID=Europe/Stockholm:20260719T210000
+DTEND;TZID=Europe/Stockholm:20260719T211500
 SUMMARY:Winner SF 1 - Winner SF 2 (TV4)
 DESCRIPTION:Tid enligt TVmatchen.\nKanal: TV4\nKälla: https://www.tvmatche
  n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/winner
