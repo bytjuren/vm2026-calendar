@@ -235,7 +235,8 @@ def resolve_matches(candidates: list[dict]) -> list[Match]:
     return matches
 
 def flag_team(team: str) -> str:
-    return f"{FLAGS.get(team, '')}{team}"
+    clean = team.strip()
+    return f"{FLAGS.get(clean, '')}{clean}"
 
 def esc_ical(value: str) -> str:
     return value.replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace("\n", "\\n")
