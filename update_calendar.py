@@ -236,6 +236,23 @@ def resolve_matches(candidates: list[dict]) -> list[Match]:
 
 def flag_team(team: str) -> str:
     clean = team.strip()
+
+    # Ta bort flaggor som råkat följa med från källan/parsern
+    for flag in FLAGS.values():
+        clean = clean.replace(flag, "")
+
+    clean = clean.strip()
+
+    # Extra säkring för just dessa
+    if clean == "Frankrike":
+        return "🇫🇷Frankrike"
+    if clean == "Sverige":
+        return "🇸🇪Sverige"
+    if clean == "England":
+        return "🏴󠁧󠁢󠁥󠁮󠁧󠁿England"
+    if clean == "Skottland":
+        return "🏴󠁧󠁢󠁳󠁣󠁴󠁿Skottland"
+
     return f"{FLAGS.get(clean, '')}{clean}"
 
 def esc_ical(value: str) -> str:
