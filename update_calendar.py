@@ -46,7 +46,6 @@ FLAGS = {
     "Österrike": "🇦🇹", "Jordanien": "🇯🇴", "Portugal": "🇵🇹",
     "DR Kongo": "🇨🇩", "D.R. Kongo": "🇨🇩", "Demokratiska republiken Kongo": "🇨🇩",
     "England": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "Kroatien": "🇭🇷", "Ghana": "🇬🇭", "Panama": "🇵🇦",
-    "Wales": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
     "Uzbekistan": "🇺🇿", "Colombia": "🇨🇴",
 }
 
@@ -243,7 +242,6 @@ def flag_team(team: str) -> str:
 
     clean = clean.strip()
 
-    # Extra säkring för just dessa
     if clean == "Frankrike":
         return "🇫🇷Frankrike"
     if clean == "Sverige":
@@ -274,8 +272,67 @@ def event_uid(m: Match) -> str:
     slug = re.sub(r"[^a-zA-Z0-9]+", "-", identity).strip("-").lower()
     return f"fifa-world-cup-2026-{slug}@tvmatchen-calendar"
 
+
+def extract_existing_event_blocks(existing_ics: str) -> list[list[str]]:
+    blocks: list[list[str]] = []
+    current: list[str] | None = None
+    for raw_line in existing_ics.replace("\r\n", "\n").split("\n"):
+        line = raw_line.rstrip("\r")
+        if line == "BEGIN:VEVENT":
+            current = [line]
+        elif line == "END:VEVENT" and current is not None:
+            current.append(line)
+            blocks.append(current)
+            current = None
+        elif current is not None:
+            current.append(line)
+    return blocks
+
+def event_uid_from_block(block: list[str]) -> str | None:
+    for line in block:
+        if line.startswith("UID:"):
+            return line[4:].strip()
+    return None
+
+def event_start_from_block(block: list[str]) -> datetime | None:
+    for line in block:
+        if line.startswith("DTSTART"):
+            value = line.split(":", 1)[-1].strip()
+            value = value.rstrip("Z")
+            for fmt in ("%Y%m%dT%H%M%S", "%Y%m%dT%H%M", "%Y%m%d"):
+                try:
+                    dt = datetime.strptime(value, fmt)
+                    return dt.replace(tzinfo=ZoneInfo(TIMEZONE))
+                except ValueError:
+                    pass
+    return None
+
+def read_archived_past_events(new_uids: set[str]) -> list[list[str]]:
+    if not OUTFILE.exists():
+        return []
+
+    existing_ics = OUTFILE.read_text(encoding="utf-8", errors="replace")
+    now_local = datetime.now(ZoneInfo(TIMEZONE))
+    archived: list[list[str]] = []
+
+    for block in extract_existing_event_blocks(existing_ics):
+        uid = event_uid_from_block(block)
+        start = event_start_from_block(block)
+
+        # Behåll bara historiska events som inte ersätts av ny TVmatchen-data.
+        # Framtida gamla events, till exempel gamla TV4-presstjänst-slutspelsplatshållare,
+        # ska inte ligga kvar och skapa dubletter.
+        if uid and uid not in new_uids and start and start < now_local:
+            archived.append(block)
+
+    return archived
+
+
 def build_ics(matches: list[Match]) -> str:
     now = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    new_uids = {event_uid(m) for m in matches}
+    archived_blocks = read_archived_past_events(new_uids)
+
     lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
@@ -304,6 +361,11 @@ def build_ics(matches: list[Match]) -> str:
         "END:STANDARD",
         "END:VTIMEZONE",
     ]
+
+    # Först gamla historiska events som redan fanns i kalenderfilen.
+    # Sedan nya/aktuella TVmatchen-events.
+    for block in archived_blocks:
+        lines.extend(block)
 
     for m in matches:
         end = m.start + timedelta(minutes=120)
@@ -368,7 +430,7 @@ def main() -> int:
     OUTFILE.parent.mkdir(parents=True, exist_ok=True)
     OUTFILE.write_text(build_ics(matches), encoding="utf-8")
     write_index(len(matches))
-    print(f"OK: skrev {OUTFILE} med {len(matches)} matcher från TVmatchen.")
+    print(f"OK: skrev {OUTFILE} med {len(matches)} aktuella matcher från TVmatchen och behöll historiska events från befintlig ICS.")
     return 0
 
 if __name__ == "__main__":
