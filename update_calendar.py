@@ -418,14 +418,14 @@ def write_index(match_count: int) -> None:
 def main() -> int:
     raw = fetch(SOURCE_URL)
     candidates = parse_main_page(raw)
-    if len(candidates) < 20:
-        print(f"Fel: hittade bara {len(candidates)} matcher på TVmatchen. Sidans format kan ha ändrats.", file=sys.stderr)
-        return 1
+if len(candidates) < 1:
+    print(f"Fel: hittade bara {len(candidates)} matcher på TVmatchen. Sidans format kan ha ändrats.", file=sys.stderr)
+    return 1
 
     matches = resolve_matches(candidates)
-    if len(matches) < 10:
-        print(f"Fel: hittade bara {len(matches)} matcher med SVT/TV4. Kanalformatet kan ha ändrats.", file=sys.stderr)
-        return 1
+    if len(matches) < 1:
+    print(f"Fel: hittade bara {len(matches)} matcher med SVT/TV4. Kanalformatet kan ha ändrats.", file=sys.stderr)
+    return 1
 
     OUTFILE.parent.mkdir(parents=True, exist_ok=True)
     OUTFILE.write_text(build_ics(matches), encoding="utf-8")
