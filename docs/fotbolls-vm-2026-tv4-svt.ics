@@ -469,9 +469,22 @@ LOCATION:TV4
 URL:https://www.tv4play.se/
 END:VEVENT
 BEGIN:VEVENT
+UID:fifa-world-cup-2026-202607152100-england-argentina-tv4@tvmatchen-calend
+ ar
+DTSTAMP:20260715T203207Z
+DTSTART;TZID=Europe/Stockholm:20260715T210000
+DTEND;TZID=Europe/Stockholm:20260715T230000
+SUMMARY:🏴󠁧󠁢󠁥󠁮󠁧󠁿England - 🇦🇷Argentina (TV4)
+DESCRIPTION:Tid enligt TVmatchen.\nKanal: TV4\nKälla: https://www.tvmatche
+ n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/englan
+ d-argentina-1829374\nStreaming: https://www.tv4play.se/
+LOCATION:TV4
+URL:https://www.tv4play.se/
+END:VEVENT
+BEGIN:VEVENT
 UID:fifa-world-cup-2026-202607182300-frankrike-f-rlorare-semifinal-2-svt@tv
  matchen-calendar
-DTSTAMP:20260715T190642Z
+DTSTAMP:20260715T203207Z
 DTSTART;TZID=Europe/Stockholm:20260718T230000
 DTEND;TZID=Europe/Stockholm:20260719T010000
 SUMMARY:🇫🇷Frankrike - Förlorare semifinal 2 (SVT)
@@ -484,7 +497,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:fifa-world-cup-2026-202607192100-spanien-vinnare-semifinal-2-tv4@tvmatc
  hen-calendar
-DTSTAMP:20260715T190642Z
+DTSTAMP:20260715T203207Z
 DTSTART;TZID=Europe/Stockholm:20260719T210000
 DTEND;TZID=Europe/Stockholm:20260719T230000
 SUMMARY:🇪🇸Spanien - Vinnare semifinal 2 (TV4)
