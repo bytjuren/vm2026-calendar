@@ -508,9 +508,22 @@ LOCATION:SVT
 URL:https://www.svtplay.se/
 END:VEVENT
 BEGIN:VEVENT
+UID:fifa-world-cup-2026-202607182300-frankrike-england-svt@tvmatchen-calend
+ ar
+DTSTAMP:20260718T221439Z
+DTSTART;TZID=Europe/Stockholm:20260718T230000
+DTEND;TZID=Europe/Stockholm:20260719T010000
+SUMMARY:🇫🇷Frankrike - 🏴󠁧󠁢󠁥󠁮󠁧󠁿England (SVT)
+DESCRIPTION:Tid enligt TVmatchen.\nKanal: SVT\nKälla: https://www.tvmatche
+ n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/frankr
+ ike-england-1829375\nStreaming: https://www.svtplay.se/
+LOCATION:SVT
+URL:https://www.svtplay.se/
+END:VEVENT
+BEGIN:VEVENT
 UID:fifa-world-cup-2026-202607192100-spanien-argentina-tv4@tvmatchen-calend
  ar
-DTSTAMP:20260718T212140Z
+DTSTAMP:20260718T221439Z
 DTSTART;TZID=Europe/Stockholm:20260719T210000
 DTEND;TZID=Europe/Stockholm:20260719T230000
 SUMMARY:🇪🇸Spanien - 🇦🇷Argentina (TV4)
