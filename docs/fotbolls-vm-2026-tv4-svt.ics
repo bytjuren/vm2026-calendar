@@ -533,4 +533,17 @@ DESCRIPTION:Tid enligt TVmatchen.\nKanal: TV4\nKälla: https://www.tvmatche
 LOCATION:TV4
 URL:https://www.tv4play.se/
 END:VEVENT
+BEGIN:VEVENT
+UID:fifa-world-cup-2026-202607192100-spanien-argentina-tv4@tvmatchen-calend
+ ar
+DTSTAMP:20260719T191154Z
+DTSTART;TZID=Europe/Stockholm:20260719T210000
+DTEND;TZID=Europe/Stockholm:20260719T230000
+SUMMARY:🇪🇸Spanien - 🇦🇷Argentina (TV4)
+DESCRIPTION:Tid enligt TVmatchen.\nKanal: TV4\nKälla: https://www.tvmatche
+ n.nu/fotboll/fotbolls-vm\nMatchsida: https://www.tvmatchen.nu/match/spanie
+ n-argentina-1829376\nStreaming: https://www.tv4play.se/
+LOCATION:TV4
+URL:https://www.tv4play.se/
+END:VEVENT
 END:VCALENDAR
